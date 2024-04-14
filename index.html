@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plexus Website</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        /*
+        const navList = document.getElementById("navbar_items");
+        const items = ["BrandName", "Partnerships", "Products", "About Us"];
+        const topMenu = document.getElementById("navbar_items");
+        let lastId;
+
+        items.forEach((item, i) => {
+            const el = document.createElement("a");
+            el.innerText = item;
+
+        })
+        */
+    </script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <!-- Navbar Toggler Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul id="navbar_items" class="nav nav-pills text-center mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#partnershipsSection">Partnerships</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productsSection">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutUsSection">About Us</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+    </nav>
+    
+    <div id="welcomeSection" class="container-fluid" style="padding: 100px 20px;">
+        <h1>Plexus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div id="partnershipsSection" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+      <h1>Partnerships</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    
+    <div id="productsSection" class="container-fluid bg-warning" style="padding:100px 20px;">
+      <h1>Products</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <br>
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+      
+        <div class="carousel-inner">
+          <!-- First slide (active) -->
+          <div class="carousel-item active">
+            <div class="row">
+              <h1>Brands</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-1">
+
+              </div>
+              <div class="col-md-2">
+                <div class="shadow card mb-4">
+                  <img src="product-image1.jpg" class="card-img-top" alt="Product Image 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Brand 1</h5>
+                    <p class="card-text">Description of Product 1</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-md-2">
+                <div class="shadow card mb-4">
+                  <img src="product-image2.jpg" class="card-img-top" alt="Product Image 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Brand 2</h5>
+                    <p class="card-text">Description of Product 2</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-md-2">
+                <div class="shadow card mb-4">
+                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Brand 3</h5>
+                    <p class="card-text">Description of Product 3</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2">
+                <div class="shadow card mb-4">
+                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Brand 4</h5>
+                    <p class="card-text">Description of Product 3</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2">
+                <div class="shadow card mb-4">
+                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Brand 5</h5>
+                    <p class="card-text">Description of Product 3</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Second slide -->
+          <div class="carousel-item">
+            <div class="row">
+              <h1>Top-Selling Items</h1>
+            </div>
+
+            <div class="row">
+              <div class="col-md-1">
+
+              </div>
+              <div class="col-md-3">
+                <div class="shadow card mb-4">
+                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 1</h5>
+                    <p class="card-text">Description of Product 1</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="shadow card mb-4">
+                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 2</h5>
+                    <p class="card-text">Description of Product 1</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="shadow card mb-4">
+                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 3</h5>
+                    <p class="card-text">Description of Product 1</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <!--Third Slide-->
+        <div class="carousel-item">
+          <div class="row">
+            <h1>Explore More</h1>
+          </div>
+          <div class="row">
+          <div class="col-md-1">
+
+          </div>
+
+          <div class="col-md-10">
+            <div class="shadow card mb-10">
+              
+              <div class="card-body">
+                <form action="" method="POST">
+                  <div class="row">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                      <span class="input-group-text" id="basic-addon1"><button class="btn">Search</button></span>
+                    </div>
+                  </div>
+                </form>
+                <div class="card-scrollable">
+                <div class="row">
+                  <div class="col-sm-12 border">
+                    <p>Products</p>
+                    <div class="row">
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">1</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">2</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">3</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">4</div>
+                      </div>
+                      </div>
+
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">5</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">6</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">7</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">8</div>
+                      </div>
+                      </div>
+
+
+                      
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">5</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">6</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">7</div>
+                      </div>
+                      </div>
+                      <div class="container col-sm-3 border p-1">
+                        <div class="card">
+                          <div class="card-body">8</div>
+                      </div>
+                      </div>
+                    
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-sm-4">
+
+                    </div>
+                    <div class="col-sm-4">
+                      <a href="products_page.html" class="btn btn-primary">Click to open products page</a>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        </div>
+
+        <br>
+        <br>
+
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      
+    </div>
+
+    <div id="aboutUsSection" class="container-fluid bg-secondary" style="padding:100px 20px;">
+      <h1>About Us</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <div class="row">
+      <div class="card col-sm-6">
+        <div class="card-body">About Us Card</div>
+      </div>
+
+      <div class="card col-sm-6">
+        <div class="card-body">About Us Card</div>
+      </div>
+      </div>
+
+      <br>
+      <div class="row">
+        <div class="card col-sm-6">
+        <div class="card-body">Quality Policy</div>
+        </div>
+
+        <div class="card col-sm-6">
+        <div class="card-body">Social Responsibility</div>
+        </div>
+      </div>
+
+    </div>
+    
+    <!--Bootstrap JS-->
+    <script src="bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.min.js"></script>
+    </body>
+</html>
