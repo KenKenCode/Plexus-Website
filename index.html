@@ -7,6 +7,10 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css">
     
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+    <!--<link rel="stylesheet" href="fontawesome-free-6.5.2-web\css\fontawesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 
     <script>
@@ -26,15 +30,17 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top mb-5">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="#">
+              <img src="media/Plexus_Logo.png" alt="" width="100" height="30">
+            </a>
             <!-- Navbar Toggler Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul id="navbar_items" class="nav nav-pills text-center mx-auto">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul id="navbar_items" class="nav nav-pills text-center">
               <li class="nav-item">
                 <a class="nav-link" href="#partnershipsSection">Partnerships</a>
               </li>
@@ -49,13 +55,78 @@
           </div>
     </nav>
     
-    <div id="welcomeSection" class="container-fluid" style="padding: 100px 20px;">
-        <h1>Plexus</h1>
+    <div id="welcomeSection" class="container-fluid" style="padding: 100px 20px; background-image: url('media/Welcome_Page_Background.png'); background-size: cover; background-position: center;">
+      <div style="text-align: right;">
+        <h1>Plexus Technology Corporation</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
 
     <div id="partnershipsSection" class="container-fluid bg-success text-white" style="padding:100px 20px;">
       <h1>Partnerships</h1>
+      <div class="row mb-5">
+        <div class="col-2">
+          <div class="text-center">
+            <img src="media/Sophos_Logo(2).png" class="img-fluid rounded" >
+            
+          </div>
+        </div>
+    
+        <div class="col-2">
+          <div class="text-center">
+            <img src="media/Sangfor_Logo(2).png" class="img-fluid rounded">
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="text-center">
+            <img src="media/Yubico_Logo(2).png" class="img-fluid rounded">
+          </div>
+        </div>
+    
+        <div class="col-2">
+          <div class="text-center">
+            <img src="media/Ruijie_Logo(2).png" class="img-fluid rounded">
+          </div>
+        </div>
+
+        
+        
+        <!--
+        <div class="col-md-1 col-6" style="width: 12rem;">
+          <div class="card">
+              <div class="card-body">
+                  <p>Card</p>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-md-1 col-6" style="width: 12rem; max-height: 20px;">
+          <div class="card">
+              <div class="card-body">
+                  <p>Card</p>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-md-1 col-6" style="width: 12rem; ">
+        <div class="card">
+            <div class="card-body">
+                <p>Card</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-1 col-6" style="width: 12rem;">
+        <div class="card">
+            <div class="card-body">
+                <p>Card</p>
+            </div>
+        </div>
+    </div>
+  -->
+
+    </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     
@@ -87,55 +158,69 @@
               </div>
               <div class="col-md-2">
                 <div class="shadow card mb-4">
-                  <img src="product-image1.jpg" class="card-img-top" alt="Product Image 1">
                   <div class="card-body">
-                    <h5 class="card-title">Brand 1</h5>
-                    <p class="card-text">Description of Product 1</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <h5 class="card-title">HIKVision</h5>
+                    <div class="container border">
+                      <div class="text-center">
+                        <img src="media/HIKVision_Logo(2).png" class="img-fluid rounded">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
       
               <div class="col-md-2">
                 <div class="shadow card mb-4">
-                  <img src="product-image2.jpg" class="card-img-top" alt="Product Image 2">
                   <div class="card-body">
-                    <h5 class="card-title">Brand 2</h5>
-                    <p class="card-text">Description of Product 2</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <h5 class="card-title">Reyee</h5>
+                    <div class="container border">
+                      <div class="text-center">
+                        <img src="media/Reyee_Logo(2).png" class="img-fluid rounded">
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
       
               <div class="col-md-2">
                 <div class="shadow card mb-4">
-                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
                   <div class="card-body">
-                    <h5 class="card-title">Brand 3</h5>
-                    <p class="card-text">Description of Product 3</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <h5 class="card-title">Uniview Tech</h5>
+                    <div class="container border">
+                      <div class="text-center">
+                        <img src="media/Uniview_Logo(2).png" class="img-fluid rounded">
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
 
               <div class="col-md-2">
                 <div class="shadow card mb-4">
-                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
                   <div class="card-body">
                     <h5 class="card-title">Brand 4</h5>
-                    <p class="card-text">Description of Product 3</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <div class="container border">
+                      <div class="text-center">
+                        <img src="media/Uniview_Logo(2).png" class="img-fluid rounded">
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
 
               <div class="col-md-2">
                 <div class="shadow card mb-4">
-                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
                   <div class="card-body">
                     <h5 class="card-title">Brand 5</h5>
-                    <p class="card-text">Description of Product 3</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <div class="container border">
+                      <div class="text-center">
+                        <img src="media/Uniview_Logo(2).png" class="img-fluid rounded">
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -154,33 +239,118 @@
               </div>
               <div class="col-md-3">
                 <div class="shadow card mb-4">
-                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
                   <div class="card-body">
-                    <h5 class="card-title">Product 1</h5>
-                    <p class="card-text">Description of Product 1</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <span class="badge rounded-pill bg-danger">Tag 1</span>
+                    <span class="badge rounded-pill bg-warning">Tag 2</span>
+                    <span class="badge rounded-pill bg-success">Tag 3</span>
+                    <div class="container border mb-2">
+                      <div class="row border">
+                        <div class="text-center">
+                          <img src="media/Products/Video Wall.png" class="img-fluid rounded product-images">
+                        </div>
+                      </div>
+                      <div class="row border">
+                        <p>Product Name</p>
+                      </div>
+
+                      <div class="row border">
+                        <p>Price</p>
+
+                      </div>
+
+                      <div class="row border">
+                        
+                        <div class="text-center">
+                          
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class=""></span>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="shadow card mb-4">
-                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
                   <div class="card-body">
-                    <h5 class="card-title">Product 2</h5>
-                    <p class="card-text">Description of Product 1</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <span class="badge rounded-pill bg-warning">Tag 1</span>
+                    <span class="badge rounded-pill bg-success">Tag 2</span>
+                    <div class="container border mb-2">
+                      <div class="row border">
+                        <div class="text-center">
+                          <img src="media/Products/Digital Dancefloor LED Display.png" class="img-fluid rounded product-images">
+                        </div>
+                      </div>
+                      <div class="row border">
+                        <p>Product Name</p>
+                      </div>
+
+                      <div class="row border">
+                        <p>Price</p>
+
+                      </div>
+                      <div class="row border">
+                        
+                        <div class="text-center">
+                          
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-3">
                 <div class="shadow card mb-4">
-                  <img src="product-image3.jpg" class="card-img-top" alt="Product Image 3">
                   <div class="card-body">
-                    <h5 class="card-title">Product 3</h5>
-                    <p class="card-text">Description of Product 1</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <span class="badge rounded-pill bg-success">Tag 1</span>
+                    <div class="container border mb-2">
+                      <div class="row border">
+                        <div class="text-center">
+                          <img src="media/Products/Queuing System Kiosk.png" class="img-fluid rounded product-images">
+                        </div>
+                      </div>
+                      <div class="row border">
+                        <p>Product Name</p>
+                      </div>
+
+                      <div class="row border">
+                        <p>Price</p>
+
+                      </div>
+                      <div class="row border">
+                        
+                        <div class="text-center">
+                          
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class=""></span>
+                            <span class=""></span>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -321,30 +491,125 @@
     </div>
 
     <div id="aboutUsSection" class="container-fluid bg-secondary" style="padding:100px 20px;">
-      <h1>About Us</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
       <div class="row">
       <div class="card col-sm-6">
-        <div class="card-body">About Us Card</div>
+        <div class="card-body">
+          <div class="text-center">
+          <h2>About Us</h2>
+          </div>
+          <div class="row">
+          <div class="container col-1">
+          <p>➡️</p>
+          </div>
+          <div class="container col-11">
+          <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        </div>
+        </div>
       </div>
 
       <div class="card col-sm-6">
-        <div class="card-body">About Us Card</div>
+        <div class="card-body" >
+          <div class="row mb-2" id="missionStatement">
+            <h2>Mission</h2>
+            <div class="row">
+              <div class="container col-1">
+              <p>➡️</p>
+              </div>
+              <div class="container col-11">
+              <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="row" id="visionStatement">
+            <h2>Vision</h2>
+            <div class="row">
+              <div class="container col-1">
+              <p>➡️</p>
+              </div>
+              <div class="container col-11">
+              <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
       </div>
 
       <br>
       <div class="row">
         <div class="card col-sm-6">
-        <div class="card-body">Quality Policy</div>
+          <div class="card-body">
+            <div class="text-center">
+              <h2>Quality Policy</h2>
+            </div>
+
+            <div class="row">
+              <div class="container col-1">
+              <p>➡️</p>
+              </div>
+              <div class="container col-11">
+              <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          
         </div>
 
         <div class="card col-sm-6">
-        <div class="card-body">Social Responsibility</div>
+          <div class="card-body">
+            <div class="text-center">
+              <h2>Social Responsibility</h2>
+            </div>
+
+            <div class="row">
+              <div class="container col-1">
+              <p>➡️</p>
+              </div>
+              <div class="container col-11">
+              <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
 
+    </div>
+
+    <div class="contactUsSection container-fluid" style="background-image: url('media/Contact_Us_Page_Background.png'); background-size: cover; background-position: center;">
+
+      <div class="row">
+        <div class="col-sm-6 border">
+          <h1>Connect With Us.</h1>
+          <br>
+          <div class="row border" style="padding-top: 40px;">
+            <p>Border</p>
+          </div>
+
+          <div class="row border" style="padding-top: 40px;">
+            <p>Border</p>
+          </div>
+
+          <div class="row border" style="padding-top: 40px;">
+            <p>Border</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 border">
+          <p>Lorem Ipsum</p>
+        </div>
+      </div>
     </div>
     
     <!--Bootstrap JS-->

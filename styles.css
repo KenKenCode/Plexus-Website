@@ -29,3 +29,34 @@
   overflow-y: auto;
   max-height: 500px;
 }
+
+.product-images {
+  max-height: 116px;
+}
+
+#aboutUsSection {
+  font-family: arial black, sans-serif;
+}
+/* Flashing */
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
